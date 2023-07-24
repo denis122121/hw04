@@ -157,6 +157,8 @@ color: var(--active-button);
     background-color: var(--second-text-color);
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/icons/people-office\ 1.jpg);
+        background-size: cover;
     
 }
 .hero-text {
@@ -196,6 +198,7 @@ margin: 0 auto;
 .hero-button:focus
 {
     background-color: var(--active-button) ;
+
 }
 
 /* ---------=-=-=-=---------------=-=-= FEATURE */
@@ -360,8 +363,13 @@ margin-right: 24px;
 
 .footer {
 
-    background-color: var(--second-text-color);
+background-color: var(--second-text-color);
 padding: 100px 0;
+}
+.footer-container{
+    display: flex;
+    align-items: baseline;
+
 }
 .logo-footer{
     color: var(--background-color-grey);
@@ -388,7 +396,7 @@ padding: 100px 0;
     line-height: 1.5px;
     letter-spacing: 0.32px;
     color: var(--background-color-white);
-   
+   margin-left: 120px;
 
 }
 .footer-text-contact{
@@ -400,11 +408,31 @@ padding: 100px 0;
     
 }
 .social-list-footer{
-   
+   display: flex;
         gap: 16px;
+        margin-top: 16px;
+        margin-left: 120px;
 }
 
+.social-link-footor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--global-color-blue);
+    color: var(--background-color-white);
 
+    .social-icon {
+        fill: var(--background-color-grey);
+    }
+}
+
+.social-link-footor:hover,
+.social-link-footor:focus {
+    background-color: #31D0AA;
+}
 
 
 
