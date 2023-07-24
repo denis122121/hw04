@@ -334,7 +334,8 @@ margin: 0 auto;
 }
 .customers-link{
     display: flex;
-    gap: 24;
+    gap: 24px;
+    
     
 }
 .customers-list-item{
@@ -350,17 +351,19 @@ margin-right: 24px;
     align-items: center;
     width: 168px;
     height: 88px;
-    border: 1px solid #8e8f99;
+    border: 1px solid var(--costumers-color);
     border-radius: 4px;
 }
 .icon-svg-customer:hover,
 .icon-svg-customer:focus{
     border: 1px solid var(--active-button);
+    color: var(--active-button);
 }
 .svg-fill-customer{
     fill: var(--costumers-color);
     width: 104px;
     height: 56px;
+    fill: currentColor;
 }
 .svg-fill-customer:hover,
 .svg-fill-customer:focus{
@@ -387,6 +390,7 @@ padding: 100px 0;
 .mark{
     margin-bottom: 16px;
     display: inline-block;
+    gap: 120px;
 }
 
 .footer-text{
@@ -403,11 +407,11 @@ padding: 100px 0;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--background-color-white);
    margin-left: 120px;
-
+margin-bottom: 16px;
 }
 .footer-text-contact{
     
