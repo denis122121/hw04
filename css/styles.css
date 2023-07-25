@@ -104,6 +104,7 @@ body {
     font-weight: 800;
     text-transform: uppercase;
     margin-right: 76px;
+    gap: 120px;
 }
 .studio {
     font-family: var(--second-fond);
@@ -382,7 +383,7 @@ gap: 120px;
 .footer-container{
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    
 
 
 }
@@ -394,6 +395,7 @@ gap: 120px;
     margin-bottom: 16px;
     display: inline-block;
     gap: 120px;
+
 }
 
 .footer-text{
@@ -413,7 +415,7 @@ gap: 120px;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--background-color-white);
-    margin-left: 120px;
+    /* margin-left: 120px; */
     margin-bottom: 16px;
 }
 .footer-text-contact{
@@ -451,7 +453,9 @@ gap: 120px;
     background-color: #31D0AA;
 }
 
-
+.div-text-logo{
+    margin-right: 120px;
+}
 
 
 /*    ==========================      portfolio */
